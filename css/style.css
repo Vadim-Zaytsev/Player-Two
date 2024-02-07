@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ccc;
+
+    background-color:  #141414;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    width: 80%;
+    height: 100vh;
+
+    margin: 0 auto;
+}
+
+/*-------------------------------------header--------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    
+    height: 48px;
+
+    background-color: #1A1A1A;
+    opacity: 0.8;
+}
+
+
+.logo {
+    margin-left: 64px;
+}
+/*-------------------------------------logoImg--------------------------------*/
+.logoImg {
+    margin-right: 8px;
+}
+
+/*-------------------------------------content--------------------------------*/
+.content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    width: 570px;
+    height: 540px;
+
+    border-radius: 4px;
+
+    background-color: #1C1C1C;
+}
+
+/*-------------------------------------buttonCreatePlaylist--------------------------------*/
+.buttonCreatePlaylist {
+ 
+
+    padding: 15px 30px;
+
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ddd;
+
+    border: none;
+    border-radius: 10px;
+   
+    background-color: #b8941d;
+
+    cursor: pointer;
+}
+
+.buttonCreatePlaylist:hover {
+    background-color: #a07f14;
+}
+
+/*-------------------------------------disabled--------------------------------*/
+
+.disabled {
+    display: none;
+    visibility: hidden;
+}
+
+  
+
